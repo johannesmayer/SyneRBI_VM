@@ -125,6 +125,7 @@ SuperBuild(){
   else
     cd SIRF-SuperBuild
     git fetch
+    git pull
   fi
   # go to SB_TAG
   if [ $1 = 'default' ] 
